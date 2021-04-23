@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+	<html lang="es">
+		<head>
+			<meta charset="utf-8"/>
+			<title>Formulario</title>
+		</head>
+		<body>
+			<form action="ejemplo.php" method="get">
+				<div class="form-row">
+				<fieldset>
+				<legend>Datos personales 1</legend>
+					<p class="form-group col-md-6">
+						<label for="inputname">Nombre</label>
+						<input type="name" class="name">
+					</p>
+					<p class="form-group col-md-6">
+						<label for="Imputsurnames">Apellidos</label>
+						<input type="surname" class="surname">
+					</p>
+					</p>
+					<p class="form-group">
+						<label for="inputAddress">Calle</label>
+						<input type="text" class="form-control" id="inputAddress" placeholder="C/ o Av/">
+					</p>
+					<p class="form-group">
+						<label for="inputEAdress">Correo electronico</label>
+						<input type="text" class="form-control" placeholder="ejemlo@direccion.com">
+					</p>
+					<p class="form-row">
+					<p class="form-group col-md-6">
+						<label for="inputCity">Telefono</label>
+						<input type="text" class="form-control">
+					</div>
+					</p>
+					<p class="form-check">
+						<input class="form-check-input" type="checkbox" id="gridCheck">
+						<label class="form-check-label" for="gridCheck">Acepto los terminos y condiciones
+						</label>
+							</p>
+				<fieldset>
+						<legend>Datos personales 2</legend>
+							<label for="inputState">Comunidad</label>
+								<select id="inputState" class="form-control">
+									<option selected>Elige...</option>
+									<option>Asturias</option>
+									<option>Cantabria</option>
+									<option>Pais vasco</option>
+									<option>Galicia</option>
+									<option>Navarra</option>
+									<option>Argon</option>
+									<option>Cataluña</option>
+									<option>La Rioja</option>
+									<option>Castilla la vieja</option>
+									<option>Madrid</option>
+									<option>Castilla la nueva</option>
+									<option>Valencia</option>
+									<option>Murcia</option>
+									<option>Extremadura</option>
+									<option>Andalucia</option>
+									<option>Islas Baleares</option>
+									<option>Islas Canarias</option>
+									<option>Ceuta</option>
+									<option>Melilla</option>
+									<option>LGBTIQ+</option>
+								</select>
+							<p>
+							<p>Sexo:
+						<input type="radio" name="Si"> Hombre
+						<input type="radio" name="Ns"> Mujer
+						<input type="radio" name="No"> Helicoptero
+							</p>
+
+							<p>Fecha de nacimiento:
+							<input type="date" name="fecha">
+							</p>
+								<button type="submit" class="btn btn-primary">Enviar</button>
+									<input type="reset" value="Borrar">
+							</p>
+			</form>
+		</body>
+	</html>
